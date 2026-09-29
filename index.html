@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#168a45"
+  >
+
+  <meta
+    name="description"
+    content="NOUR AGRI AI - Smart Farming Assistant"
+  >
+
+  <meta
+    name="apple-mobile-web-app-capable"
+    content="yes"
+  >
+
+  <meta
+    name="apple-mobile-web-app-title"
+    content="NOUR AGRI AI"
+  >
+
+  <title>NOUR AGRI AI - Smart Farming Assistant</title>
+
+  <link
+    rel="manifest"
+    href="manifest.json"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+<!-- ========================================================
+     APP LOADER
+========================================================= -->
+
+<div id="appLoader" class="app-loader">
+
+  <div class="loader-content">
+
+    <div class="loader-icon">
+      🌱
+    </div>
+
+    <h2>NOUR AGRI AI</h2>
+
+    <p>
+      Smart Farming Assistant
+    </p>
+
+    <div class="loader-spinner"></div>
+
+  </div>
+
+</div>
+
+
+<!-- ========================================================
+     APP
+========================================================= -->
+
+<div class="app">
+
+
+  <!-- ======================================================
+       SIDEBAR
+  ======================================================= -->
+
+  <aside
+    id="sidebar"
+    class="sidebar"
+  >
+
+    <div class="sidebar-header">
+
+      <div class="brand-icon">
+        🌱
+      </div>
+
+      <div class="brand-text">
+
+        <h2>
+          NOUR AGRI AI
+        </h2>
+
+        <p>
+          Smart Farming Assistant
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- OWNER -->
+
+    <div class="owner-box">
+
+      <small>
+        Owner & Creator
+      </small>
+
+      <strong>
+        Muhammad Laminu
+      </strong>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <nav class="sidebar-nav">
+
+      <a
+        href="#home"
+        class="nav-item active"
+        data-page="home"
+      >
+        <span>🏠</span>
+        <span>Home</span>
+      </a>
+
+
+      <a
+        href="#ai"
+        class="nav-item"
+        data-page="ai"
+      >
+        <span>🤖</span>
+        <span>AI Assistant</span>
+      </a>
+
+
+      <a
+        href="#crops"
+        class="nav-item"
+        data-page="crops"
+      >
+        <span>🌾</span>
+        <span>Crop Guide</span>
+      </a>
+
+
+      <a
+        href="#fertilizer"
+        class="nav-item"
+        data-page="fertilizer"
+      >
+        <span>🧪</span>
+        <span>Fertilizer</span>
+      </a>
+
+
+      <a
+        href="#records"
+        class="nav-item"
+        data-page="records"
+      >
+        <span>📋</span>
+        <span>Farm Records</span>
+      </a>
+
+
+      <a
+        href="#weather"
+        class="nav-item"
+        data-page="weather"
+      >
+        <span>☁️</span>
+        <span>Weather</span>
+      </a>
+
+
+      <a
+        href="#about"
+        class="nav-item"
+        data-page="about"
+      >
+        <span>ℹ️</span>
+        <span>About</span>
+      </a>
+
+    </nav>
+
+
+    <!-- SIDEBAR FOOTER -->
+
+    <div class="sidebar-footer">
+
+      <p>
+        © 2026 NOUR AGRI AI
+      </p>
+
+      <p>
+        Muhammad Laminu
+      </p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- ======================================================
+       MAIN
+  ======================================================= -->
+
+  <main class="main-content">
+
+
+    <!-- TOPBAR -->
+
+    <header class="topbar">
+
+      <button
+        id="menuButton"
+        class="menu-button"
+        type="button"
+        aria-label="Open menu"
+      >
+        ☰
+      </button>
+
+
+      <div class="topbar-title">
+
+        <h1>
+          NOUR AGRI AI
+        </h1>
+
+        <span>
+          Smart Farming Assistant
+        </span>
+
+      </div>
+
+
+      <div class="topbar-actions">
+
+        <button
+          id="notificationButton"
+          class="icon-button"
+          type="button"
+          aria-label="Notifications"
+        >
+          🔔
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- ====================================================
+         HOME PAGE
+    ===================================================== -->
+
+    <section
+      id="home"
+      class="page active"
+    >
+
+      <div class="hero">
+
+        <div class="hero-content">
+
+          <span class="hero-badge">
+            🌱 SMART AGRICULTURE
+          </span>
+
+          <h2>
+            Welcome to
+            <strong>NOUR AGRI AI</strong>
+          </h2>
+
+          <p>
+            Your smart farming assistant for crop production,
+            soil management, fertilizer guidance, farm records
+            and agricultural knowledge.
+          </p>
+
+          <button
+            class="primary-button"
+            data-page="ai"
+            type="button"
+          >
+            🤖 Ask AI Assistant
+          </button>
+
+        </div>
+
+        <div class="hero-visual">
+          🌾
+        </div>
+
+      </div>
+
+
+      <!-- STATS -->
+
+      <div class="stats-grid">
+
+        <div class="stat-card">
+
+          <div class="stat-icon">
+            🌾
+          </div>
+
+          <div>
+            <strong>
+              15+
+            </strong>
+
+            <span>
+              Crop Guides
+            </span>
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div class="stat-icon">
+            🧪
+          </div>
+
+          <div>
+            <strong>
+              Smart
+            </strong>
+
+            <span>
+              Farm Tools
+            </span>
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div class="stat-icon">
+            📋
+          </div>
+
+          <div>
+            <strong id="recordCount">
+              0
+            </strong>
+
+            <span>
+              Farm Records
+            </span>
+          </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <div class="stat-icon">
+            🤖
+          </div>
+
+          <div>
+            <strong>
+              AI
+            </strong>
+
+            <span>
+              Farming Assistant
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- QUICK ACTIONS -->
+
+      <div class="section-heading">
+
+        <h2>
+          Quick Actions
+        </h2>
+
+        <p>
+          Start with any farming tool below.
+        </p>
+
+      </div>
+
+
+      <div class="feature-grid">
+
+        <button
+          class="feature-card"
+          data-page="ai"
+          type="button"
+        >
+
+          <span class="feature-icon">
+            🤖
+          </span>
+
+          <h3>
+            AI Farming Assistant
+          </h3>
+
+          <p>
+            Ask farming questions and get detailed agricultural
+            guidance.
+          </p>
+
+        </button>
+
+
+        <button
+          class="feature-card"
+          data-page="crops"
+          type="button"
+        >
+
+          <span class="feature-icon">
+            🌾
+          </span>
+
+          <h3>
+            Crop Guide
+          </h3>
+
+          <p>
+            Learn about maize, rice, tomato, beans and other crops.
+          </p>
+
+        </button>
+
+
+        <button
+          class="feature-card"
+          data-page="fertilizer"
+          type="button"
+        >
+
+          <span class="feature-icon">
+            🧪
+          </span>
+
+          <h3>
+            Fertilizer Tool
+          </h3>
+
+          <p>
+            Plan fertilizer use based on crop and field information.
+          </p>
+
+        </button>
+
+
+        <button
+          class="feature-card"
+          data-page="records"
+          type="button"
+        >
+
+          <span class="feature-icon">
+            📋
+          </span>
+
+          <h3>
+            Farm Records
+          </h3>
+
+          <p>
+            Keep your farm activities and expenses organized.
+          </p>
+
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         AI PAGE
+    ===================================================== -->
+
+    <section
+      id="ai"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          🤖
+        </span>
+
+        <div>
+
+          <h2>
+            AI Farming Assistant
+          </h2>
+
+          <p>
+            Ask questions about farming, crops, soil,
+            fertilizer and livestock.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="ai-container">
+
+        <!-- CHAT -->
+
+        <div
+          id="chatMessages"
+          class="chat-messages"
+        >
+
+          <div class="chat-message ai-message">
+
+            <div class="message-avatar">
+              🌱
+            </div>
+
+            <div class="message-content">
+
+              <h3>
+                Welcome to NOUR AGRI AI 👋
+              </h3>
+
+              <p>
+                I am your smart farming assistant.
+                Ask me any farming question.
+              </p>
+
+              <p>
+                Example:
+                <strong>
+                  How can I plant maize?
+                </strong>
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- SUGGESTIONS -->
+
+        <div class="ai-suggestions">
+
+          <button
+            type="button"
+            data-question="How can I plant maize?"
+          >
+            🌽 How can I plant maize?
+          </button>
+
+          <button
+            type="button"
+            data-question="What fertilizer does maize need?"
+          >
+            🧪 Maize fertilizer
+          </button>
+
+          <button
+            type="button"
+            data-question="Why are my leaves turning yellow?"
+          >
+            🍃 Yellow leaves
+          </button>
+
+          <button
+            type="button"
+            data-question="How do I take care of chickens?"
+          >
+            🐔 Chicken farming
+          </button>
+
+        </div>
+
+
+        <!-- CHAT FORM -->
+
+        <form
+          id="aiChatForm"
+          class="chat-form"
+        >
+
+          <input
+            id="aiInput"
+            type="text"
+            placeholder="Ask your farming question..."
+            autocomplete="off"
+          >
+
+          <button
+            type="submit"
+            class="send-button"
+          >
+            ➤
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         CROPS PAGE
+    ===================================================== -->
+
+    <section
+      id="crops"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          🌾
+        </span>
+
+        <div>
+
+          <h2>
+            Crop Guide
+          </h2>
+
+          <p>
+            Learn how to grow different crops.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- SEARCH -->
+
+      <div class="search-box">
+
+        <span>
+          🔎
+        </span>
+
+        <input
+          id="cropSearch"
+          type="search"
+          placeholder="Search maize, rice, tomato..."
+        >
+
+      </div>
+
+
+      <!-- CROP LIST -->
+
+      <div
+        id="cropList"
+        class="guide-grid"
+      >
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🌽
+          </div>
+
+          <h3>
+            Maize
+          </h3>
+
+          <p>
+            Soil preparation, planting, fertilizer,
+            weeds, pests, harvesting and storage.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🌾
+          </div>
+
+          <h3>
+            Rice
+          </h3>
+
+          <p>
+            Rice planting, water management,
+            fertilizer, weeds and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🍅
+          </div>
+
+          <h3>
+            Tomato
+          </h3>
+
+          <p>
+            Nursery, transplanting, irrigation,
+            fertilizer, pests and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🌶️
+          </div>
+
+          <h3>
+            Pepper
+          </h3>
+
+          <p>
+            Seed selection, nursery, planting,
+            watering, pests and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🫘
+          </div>
+
+          <h3>
+            Beans
+          </h3>
+
+          <p>
+            Seed selection, planting, weeds,
+            pests, harvesting and storage.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥜
+          </div>
+
+          <h3>
+            Groundnut
+          </h3>
+
+          <p>
+            Soil preparation, planting,
+            weed control and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥔
+          </div>
+
+          <h3>
+            Cassava
+          </h3>
+
+          <p>
+            Planting materials, soil preparation,
+            weeds, disease monitoring and harvest.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🍠
+          </div>
+
+          <h3>
+            Yam
+          </h3>
+
+          <p>
+            Seed yam, planting, staking,
+            soil fertility and storage.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🧅
+          </div>
+
+          <h3>
+            Onion
+          </h3>
+
+          <p>
+            Nursery, transplanting, irrigation,
+            fertilizer and storage.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥬
+          </div>
+
+          <h3>
+            Cabbage
+          </h3>
+
+          <p>
+            Nursery, transplanting, water,
+            fertilizer and pest monitoring.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥕
+          </div>
+
+          <h3>
+            Carrot
+          </h3>
+
+          <p>
+            Soil preparation, planting,
+            watering, weeding and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥒
+          </div>
+
+          <h3>
+            Cucumber
+          </h3>
+
+          <p>
+            Planting, irrigation, support,
+            pests and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🌿
+          </div>
+
+          <h3>
+            Okra
+          </h3>
+
+          <p>
+            Seed, planting, water, weeds
+            and repeated harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <div class="guide-icon">
+            🥬
+          </div>
+
+          <h3>
+            Spinach
+          </h3>
+
+          <p>
+            Soil preparation, seed, water,
+            pests and harvesting.
+          </p>
+
+          <button
+            type="button"
+            data-page="ai"
+          >
+            Ask AI →
+          </button>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         FERTILIZER PAGE
+    ===================================================== -->
+
+    <section
+      id="fertilizer"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          🧪
+        </span>
+
+        <div>
+
+          <h2>
+            Fertilizer Tool
+          </h2>
+
+          <p>
+            Create a fertilizer planning guide.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="calculator-card">
+
+        <div class="form-group">
+
+          <label for="calcCrop">
+            Select Crop
+          </label>
+
+          <select id="calcCrop">
+
+            <option value="Maize">
+              Maize
+            </option>
+
+            <option value="Rice">
+              Rice
+            </option>
+
+            <option value="Tomato">
+              Tomato
+            </option>
+
+            <option value="Beans">
+              Beans
+            </option>
+
+            <option value="Groundnut">
+              Groundnut
+            </option>
+
+            <option value="Cassava">
+              Cassava
+            </option>
+
+            <option value="Yam">
+              Yam
+            </option>
+
+            <option value="Onion">
+              Onion
+            </option>
+
+            <option value="Pepper">
+              Pepper
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="fertilizerType">
+            Fertilizer Type
+          </label>
+
+          <select id="fertilizerType">
+
+            <option value="NPK">
+              NPK
+            </option>
+
+            <option value="Urea">
+              Urea
+            </option>
+
+            <option value="Organic Manure">
+              Organic Manure
+            </option>
+
+            <option value="Compost">
+              Compost
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="fieldSize">
+            Field Size
+          </label>
+
+          <input
+            id="fieldSize"
+            type="number"
+            min="0"
+            step="0.01"
+            placeholder="Enter field size"
+          >
+
+        </div>
+
+
+        <button
+          id="calculateButton"
+          class="primary-button"
+          type="button"
+        >
+          🧪 Create Fertilizer Plan
+        </button>
+
+
+        <div
+          id="calculationResult"
+          class="calculation-result"
+        >
+
+          <p>
+            Enter your field information to begin.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         FARM RECORDS
+    ===================================================== -->
+
+    <section
+      id="records"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          📋
+        </span>
+
+        <div>
+
+          <h2>
+            Farm Records
+          </h2>
+
+          <p>
+            Keep track of your farm activities.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <button
+        id="addRecordButton"
+        class="primary-button"
+        type="button"
+      >
+        ➕ Add Farm Record
+      </button>
+
+
+      <div
+        id="recordsList"
+        class="records-list"
+      >
+
+        <div class="empty-state">
+
+          <div class="empty-icon">
+            📋
+          </div>
+
+          <h3>
+            No Farm Records Yet
+          </h3>
+
+          <p>
+            Add your first farm record to start tracking your farm.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         WEATHER
+    ===================================================== -->
+
+    <section
+      id="weather"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          ☁️
+        </span>
+
+        <div>
+
+          <h2>
+            Weather
+          </h2>
+
+          <p>
+            Weather information for farm planning.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="weather-card">
+
+        <div class="weather-icon">
+          ☀️
+        </div>
+
+        <div>
+
+          <h2 id="weatherTemperature">
+            28°C
+          </h2>
+
+          <p id="weatherCondition">
+            Weather information
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="info-card">
+
+        <h3>
+          🌱 Farming Tip
+        </h3>
+
+        <p>
+          Check local weather conditions before planting,
+          spraying, irrigating or harvesting.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         ABOUT
+    ===================================================== -->
+
+    <section
+      id="about"
+      class="page"
+    >
+
+      <div class="page-header">
+
+        <span class="page-icon">
+          ℹ️
+        </span>
+
+        <div>
+
+          <h2>
+            About NOUR AGRI AI
+          </h2>
+
+          <p>
+            Smart Farming Assistant
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-card">
+
+        <div class="about-logo">
+          🌱
+        </div>
+
+        <h2>
+          NOUR AGRI AI
+        </h2>
+
+        <p>
+          Smart Farming Assistant
+        </p>
+
+
+        <div class="about-description">
+
+          <p>
+            NOUR AGRI AI is a smart farming assistant designed
+            to provide useful agricultural information and
+            practical farm-management tools.
+          </p>
+
+          <p>
+            It provides guidance about crops, soil, fertilizer,
+            irrigation, pests, livestock, harvesting, storage
+            and farm business.
+          </p>
+
+        </div>
+
+
+        <div class="owner-section">
+
+          <span>
+            Owner & Creator
+          </span>
+
+          <h3>
+            Muhammad Laminu
+          </h3>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer class="app-footer">
+
+      <strong>
+        NOUR AGRI AI
+      </strong>
+
+      <p>
+        Smart Farming Assistant
+      </p>
+
+      <p>
+        Owned & Created by
+        <strong>
+          Muhammad Laminu
+        </strong>
+      </p>
+
+      <small>
+        © 2026 NOUR AGRI AI. All rights reserved.
+      </small>
+
+    </footer>
+
+  </main>
+
+</div>
+
+
+<!-- ========================================================
+     RECORD MODAL
+========================================================= -->
+
+<div
+  id="recordModal"
+  class="modal"
+>
+
+  <div class="modal-content">
+
+    <div class="modal-header">
+
+      <h2>
+        Add Farm Record
+      </h2>
+
+      <button
+        id="closeModal"
+        type="button"
+        class="close-button"
+      >
+        ×
+      </button>
+
+    </div>
+
+
+    <div class="form-group">
+
+      <label for="recordTitle">
+        Record Title
+      </label>
+
+      <input
+        id="recordTitle"
+        type="text"
+        placeholder="Example: Maize planting"
+      >
+
+    </div>
+
+
+    <div class="form-group">
+
+      <label for="recordDetails">
+        Details
+      </label>
+
+      <textarea
+        id="recordDetails"
+        rows="6"
+        placeholder="Write details about your farm activity..."
+      ></textarea>
+
+    </div>
+
+
+    <button
+      id="saveRecordButton"
+      class="primary-button"
+      type="button"
+    >
+      💾 Save Record
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- ========================================================
+     TOAST
+========================================================= -->
+
+<div
+  id="toast"
+  class="toast"
+>
+
+  <span>
+    ✓
+  </span>
+
+  <span id="toastMessage">
+    Done
+  </span>
+
+</div>
+
+
+<!-- ========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script
+  type="module"
+  src="script.js"
+></script>
+
+
+</body>
+</html>
